@@ -7,5 +7,5 @@ const urlSchema = new mongoose.Schema({
   accessCount: { type: Number, default: 0 },
 });
 
-const Url = mongoose.model("Url", urlSchema);
+const Url = mongoose.model("Amirali", urlSchema);
 module.exports = Url;

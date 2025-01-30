@@ -1,4 +1,4 @@
-const UrlService = require('../services/urlService');
+const UrlService = require('../Service/urlService');
 
 // ایجاد کوتاه‌کننده لینک
 exports.shortenUrl = async (req, res) => {
